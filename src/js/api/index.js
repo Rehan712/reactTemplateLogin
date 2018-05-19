@@ -1,10 +1,11 @@
 export function getDataApi() {
-	return [
+	const data = [
 		{
 			name: 'rehan',
 			password: 'rehan007'
 		}
 	];
+	return data;
 }
 
 export function submitDataApi(data) {

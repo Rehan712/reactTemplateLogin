@@ -32,7 +32,7 @@ class Login extends React.Component {
 						onChange={e => {
 							changeName(e.target.value);
 						}}
-						value={inputData.name}
+						value={inputData && inputData.name}
 					/>
 					<TextField
 						type="search"
@@ -40,7 +40,7 @@ class Login extends React.Component {
 						onChange={e => {
 							changePassword(e.target.value);
 						}}
-						value={inputData.password}
+						value={inputData && inputData.password}
 					/>
 					<Button color="primary">Submit</Button>
 				</form>
